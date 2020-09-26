@@ -167,7 +167,7 @@ body {
       <div class="middle-section">
         <!-- <h5>Tagline</h5> -->
         <div class="section-width">
-          <div class="banner-title">BAPTIST BIBLE SEMINARY & INSTITUTE</div>
+          <div class="banner-title">ANNOUNCEMENTS</div>
         </div>
         <div class="link-list-menu">
             <p class="verse-text-banner">" And the things that you have heard from me among many witnesses, commit these to faithful men who will be able to teach others also."</p>
@@ -180,107 +180,24 @@ body {
 </section>
 <!--//end banner section-->
 
-<!--events section-->
-<section class="events-container">
-  <div class="events">
-    <div class="events-text">Events</div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <!--<div class="col-md-6 events-col-text">-->
-      <!--  <div class="events-card d-flex flex-wrap feature-unit align-items-center">-->
-      <!--    <div class="col-sm-6 col-events">-->
-      <!--      <div class="events-info">-->
-      <!--        <img src="assets/images/homepage/event_1.png" class="img-fluid" alt="client image">-->
-      <!--      </div>-->
-      <!--    </div>-->
-      <!--    <div class="col-sm-6 mt-sm-0 mt-4">-->
-      <!--      <div class="events-para">-->
-      <!--        <div class="event-title">BBSI 89th FOUNDING ANNIVERSARY & SEMINARY DAY 2019</div>-->
-      <!--        <div class="event-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>-->
-              
-      <!--        <div class="event-info-details"><i class="fa fa-calendar-o" aria-hidden="true"> November 30, 2019</i></div>-->
-      <!--        <div class="event-info-details"><i class="fa fa-clock-o" aria-hidden="true"> 8:OO AM - 4:00 PM</i></div>-->
-      <!--        <div class="event-info-details"><i class="fa fa-map-marker" aria-hidden="true"> BBSI Covered Court</i></div>-->
-
-      <!--        <div class="learn-more-btn">-->
-      <!--          <a href="#" class="btn btn-outline-light btn-more">Learn more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>-->
-      <!--        </div>-->
-              
-      <!--      </div>-->
-      <!--    </div>-->
-      <!--  </div>-->
-      <!--</div>-->
-      
-      <!--<div class="col-md-6 events-col-text">-->
-      <!--  <div class="events-card d-flex flex-wrap feature-unit align-items-center">-->
-      <!--    <div class="col-sm-6 col-events">-->
-      <!--      <div class="events-info">-->
-      <!--        <img src="assets/images/homepage/event_2.png" class="img-fluid" alt="client image">-->
-      <!--      </div>-->
-      <!--    </div>-->
-      <!--    <div class="col-sm-6 mt-sm-0 mt-4">-->
-      <!--      <div class="events-para">-->
-      <!--        <div class="event-title">BBSI 89th FOUNDING ANNIVERSARY & SEMINARY DAY 2019</div>-->
-      <!--        <div class="event-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>-->
-              
-      <!--        <div class="event-info-details"><i class="fa fa-calendar-o" aria-hidden="true"> November 30, 2019</i></div>-->
-      <!--        <div class="event-info-details"><i class="fa fa-clock-o" aria-hidden="true"> 8:OO AM - 4:00 PM</i></div>-->
-      <!--        <div class="event-info-details"><i class="fa fa-map-marker" aria-hidden="true"> BBSI Covered Court</i></div>-->
-
-      <!--        <div class="learn-more-btn">-->
-      <!--          <a href="#" class="btn btn-outline-light btn-more">Learn more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>-->
-      <!--        </div>-->
-              
-      <!--      </div>-->
-      <!--    </div>-->
-      <!--  </div>-->
-      <!--</div>-->
-    </div>
-    <div>
-    </div>
-  </div>
-</section>
-<!--//end events section-->
-
-<!--about-us section-->
-<section class="w3l-index-block10 about-us">
-  <div class="new-block top-bottom">
-      <div class="middle-section clearfix">
-        <!-- <h5>Tagline</h5> -->
-        <div class="about-section-width">
-          <div class="about-us-text">About Us</div>
-          <div class="about-us-details">
-           BBSI is a theological institution committed to develop called men and women through biblical training to effectively make Christ known to the world.
-          </div>
-          
-          <div class="learn-more-btn">
-            <a href="about.html" class="btn btn-outline-light btn-more">Learn more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
-          </div>
-        
-      </div>
-      </div>
-    </div>
-</section>
-<!--//end about-us section-->
-
 <!--announcement section-->
 <section class="events-container">
   <div class="events">
-    <div class="events-text">Announcements</div>
+    <div class="events-text">2020 Announcements</div>
   </div>
+<center>
   <div class="container">
-    <div class="row">
-       <div class="col-md-4 announcement-col-text">
+    <div class="row" style="margin-left:80px; margin-right:80px;">
+       <div class="col-lg-12 announcement-col-text">
         <div class="events-card d-flex flex-wrap feature-unit">
           <div class="col-sm-6 col-events">
             <div class="events-info">
-              <img src="assets/images/poster1.png" class="img-fluid announ" alt="client image">
+              <img src="assets/images/poster12.png" class="img-fluid announ" alt="client image">
             </div>
           </div>
           <div class="col-sm-6 mt-sm-0 mt-4">
             <div class="announcement-para">
-              <div class="announcement-title">step by step enrollment</div>
+              <div class="announcement-title">Commencement Exercises</div>
               <div class="announcement-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>
               
 
@@ -292,8 +209,29 @@ body {
           </div>
         </div>
       </div>   
-        
-      <div class="col-md-4 announcement-col-text">
+		  <div class="col-lg-12 announcement-col-text">
+        <div class="events-card d-flex flex-wrap feature-unit">
+          <div class="col-sm-6 col-events">
+            <div class="events-info">
+              <img src="assets/images/homepage/announcement_1.png" class="img-fluid announ" alt="client image">
+            </div>
+          </div>
+          <div class="col-sm-6 mt-sm-0 mt-4">
+            <div class="announcement-para">
+              <div class="announcement-title">Commencement Exercises</div>
+              <div class="announcement-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>
+              
+
+              <div class="learn-more-btn">
+                <a href="#announcements" class="btn btn-outline-light btn-more">See more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>   
+      </center>	  
+     <!-- <div class="col-md-4 announcement-col-text">
         <div class="events-card d-flex flex-wrap feature-unit">
           <div class="col-sm-6 col-events">
             <div class="events-info">
@@ -355,7 +293,7 @@ body {
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!--<div class="col-md-4 announcement-col-text">-->
       <!--  <div class="events-card d-flex flex-wrap feature-unit">-->
       <!--    <div class="col-sm-6 col-events">-->
@@ -377,7 +315,7 @@ body {
       <!--    </div>-->
       <!--  </div>-->
       <!--</div>-->
-      <div class="col-md-4 announcement-col-text">
+     <!-- <div class="col-md-4 announcement-col-text">
         <div class="events-card d-flex flex-wrap feature-unit">
           <div class="col-sm-6 col-events">
             <div class="events-info">
@@ -418,7 +356,7 @@ body {
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
     <div>
     </div>
