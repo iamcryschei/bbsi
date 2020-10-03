@@ -139,7 +139,7 @@ body {
             <a class="nav-link" href="#">Admissions</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Alumni</a>
+            <a class="nav-link" href="alumni.php">Alumni</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Support</a>
@@ -482,42 +482,58 @@ body {
     <div class="footer-bg-layer">
       <div class="container py-lg-3">
         <div class="row footer-top-28">
-          <div class="col-md-6 footer-list-28">
+			
+        <div class="col-lg-12">
+				
+          <div class="col-lg-12">
             <div class="row">
-              <div class="col-md-2 footer-list-28 mt-5">
-                <a class="footer-logo" href="index.html"><img src="assets/images/homepage/BBSI LOGO.png" class="img-fluid menu-logo" alt="client image"></a>
+				<div class="col-md-6 footer-list-28 mt-5">
+					<div class="col-md-3" style="display: inline-block;float:left;">
+					 	<a class="footer-logo" href="index.html"><img src="assets/images/homepage/BBSI LOGO.png" class="img-fluid menu-logo" alt="client image"></a>
+					</div>
+					<div class="col-md-3" style="display: inline;">
+						<div class="footer-title"><b>Baptist Bible Seminary & <br> Institute-BBSI.</b></div>
+						<div class="footer-text" style="text-align: start;margin-left: auto;margin-right: auto;width: 20em"><b>Love for God, love of God's Word, love for God's work and love for God's people.</b></div>
+					</div>
               </div>
-              <div class="col-md-10 footer-list-28 mt-5">
-                <div class="footer-title">Baptist Bible Seminary & Institute-BBSI.</div>
-                <div class="footer-text">Love for God, love of God's Word, love for God's work and love for God's people.</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-6 footer-list-28 mt-5">
-                <div class="footer-title">CONTACT US</div>
+              
+				<div class="col-md-2 footer-list-28 mt-5">
+                <div class="footer-title"><b>QUICK LINKS</b></div>
                 <ul>
-                  <li><a href="about.html"><div class="footer-contacts-us"><span class="fa fa-phone" aria-hidden="true"></span> (02) 8658845</div></a></li>
-                  <li><a href="about.html"><div class="footer-contacts-us"><span class="fa fa-mobile" aria-hidden="true" style="font-size: 20px !important;"></span> &emsp;+639291309024</div></a></li>
-                  <li><a href="about.html"><div class="footer-contacts-us"><span class="fa fa-envelope-o" aria-hidden="true"></span> admissionsbbsi@gmail.com</div></a></li>
+                  <li><a href="index.php"><div class="footer-contacts-us"><b>HOME</b></div></a></li>
+                  <li><a href="about.html"><div class="footer-contacts-us"><b>ABOUT US</b></div></a></li>
+                  <li><a href="#"><div class="footer-contacts-us"><b>ACADEMICS</b></div></a></li>
+                  <li><a href="#"><div class="footer-contacts-us"><b>ADMISSIONS</b></div></a></li>
+                  <li><a href="alumni.php"><div class="footer-contacts-us"><b>ALUMNI</b></div></a></li>
+                  <li><a href="#"><div class="footer-contacts-us"><b>SUPPORT</b></div></a></li>
+                  <li><a href="#"><div class="footer-contacts-us"><b>NEWS & EVENTS</b></div></a></li>
+                  <li><a href="#"><div class="footer-contacts-us"><b>ANNOUNCEMENTS</b></div></a></li>
+                  <li><a href="contact.html"><div class="footer-contacts-us"><b>CONTACT US</b></div></a></li>
                 </ul>
               </div>
-              <div class="col-md-6 footer-list-28 mt-5">
-                <div class="footer-title">FOLLOW US</div>
+              <div class="col-md-2 footer-list-28 mt-5">
+                <div class="footer-title"><b>CONTACT US</b></div>
+                <ul>
+                  <li><a href="about.html"><div class="footer-contacts-us"><span class="fa fa-phone" aria-hidden="true"></span><b> (02) 8658845</b></div></a></li>
+                  <li><a href="about.html"><div class="footer-contacts-us"><span class="fa fa-mobile" aria-hidden="true" style="font-size: 20px !important;"></span> <b>&emsp;+639291309024</b></div></a></li>
+                  <li><a href="about.html"><div class="footer-contacts-us"><span class="fa fa-envelope-o" aria-hidden="true"></span><b>admissionsbbsi@gmail.com</b></div></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2 footer-list-28 mt-5">
+                <div class="footer-title"><b>FOLLOW US</b></div>
                 <a href="https://www.facebook.com/OfficialBBSI/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
+</div>
 
-
-      <div class="midd-footer-28 align-center py-lg-3 py-3 mt-5">
+      <!--<div class="midd-footer-28 align-center py-lg-3 py-3 mt-5">
         <div class="container">
           <p class="copy-footer-28 text-center"> Copyright &copy; 2020 Baptist Bible Seminary & Institute-BBSI. All Rights Reserved</a></p>
         </div>
-      </div>
+      </div> -->
     </div>
   </footer>
 

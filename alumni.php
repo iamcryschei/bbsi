@@ -401,7 +401,7 @@ body {
                   <li><a href="#"><div class="footer-contacts-us"><b>SUPPORT</b></div></a></li>
                   <li><a href="#"><div class="footer-contacts-us"><b>NEWS & EVENTS</b></div></a></li>
                   <li><a href="#"><div class="footer-contacts-us"><b>ANNOUNCEMENTS</b></div></a></li>
-                  <li><a href="about.html"><div class="footer-contacts-us"><b>CONTACT US</b></div></a></li>
+                  <li><a href="contact.html"><div class="footer-contacts-us"><b>CONTACT US</b></div></a></li>
                 </ul>
               </div>
               <div class="col-md-2 footer-list-28 mt-5">
