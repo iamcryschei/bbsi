@@ -187,55 +187,55 @@ body {
   </div>
   <div class="container">
     <div class="row">
-      <!--<div class="col-md-6 events-col-text">-->
-      <!--  <div class="events-card d-flex flex-wrap feature-unit align-items-center">-->
-      <!--    <div class="col-sm-6 col-events">-->
-      <!--      <div class="events-info">-->
-      <!--        <img src="assets/images/homepage/event_1.png" class="img-fluid" alt="client image">-->
-      <!--      </div>-->
-      <!--    </div>-->
-      <!--    <div class="col-sm-6 mt-sm-0 mt-4">-->
-      <!--      <div class="events-para">-->
-      <!--        <div class="event-title">BBSI 89th FOUNDING ANNIVERSARY & SEMINARY DAY 2019</div>-->
-      <!--        <div class="event-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>-->
+      <div class="col-md-6 events-col-text">
+        <div class="events-card d-flex flex-wrap feature-unit align-items-center">
+          <div class="col-sm-6 col-events">
+            <div class="events-info">
+              <img src="assets/images/homepage/event_1.png" class="img-fluid" alt="client image">
+            </div>
+          </div>
+          <div class="col-sm-6 mt-sm-0 mt-4">
+            <div class="events-para">
+              <div class="event-title">BBSI 89th FOUNDING ANNIVERSARY & SEMINARY DAY 2019</div>
+              <div class="event-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>
               
-      <!--        <div class="event-info-details"><i class="fa fa-calendar-o" aria-hidden="true"> November 30, 2019</i></div>-->
-      <!--        <div class="event-info-details"><i class="fa fa-clock-o" aria-hidden="true"> 8:OO AM - 4:00 PM</i></div>-->
-      <!--        <div class="event-info-details"><i class="fa fa-map-marker" aria-hidden="true"> BBSI Covered Court</i></div>-->
+              <div class="event-info-details"><i class="fa fa-calendar-o" aria-hidden="true"> November 30, 2019</i></div>
+              <div class="event-info-details"><i class="fa fa-clock-o" aria-hidden="true"> 8:OO AM - 4:00 PM</i></div>
+              <div class="event-info-details"><i class="fa fa-map-marker" aria-hidden="true"> BBSI Covered Court</i></div>
 
-      <!--        <div class="learn-more-btn">-->
-      <!--          <a href="#" class="btn btn-outline-light btn-more">Learn more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>-->
-      <!--        </div>-->
+              <div class="learn-more-btn">
+                <a href="#" class="btn btn-outline-light btn-more">Learn more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
+              </div>
               
-      <!--      </div>-->
-      <!--    </div>-->
-      <!--  </div>-->
-      <!--</div>-->
+            </div>
+          </div>
+        </div>
+      </div>
       
-      <!--<div class="col-md-6 events-col-text">-->
-      <!--  <div class="events-card d-flex flex-wrap feature-unit align-items-center">-->
-      <!--    <div class="col-sm-6 col-events">-->
-      <!--      <div class="events-info">-->
-      <!--        <img src="assets/images/homepage/event_2.png" class="img-fluid" alt="client image">-->
-      <!--      </div>-->
-      <!--    </div>-->
-      <!--    <div class="col-sm-6 mt-sm-0 mt-4">-->
-      <!--      <div class="events-para">-->
-      <!--        <div class="event-title">BBSI 89th FOUNDING ANNIVERSARY & SEMINARY DAY 2019</div>-->
-      <!--        <div class="event-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>-->
+      <div class="col-md-6 events-col-text">
+        <div class="events-card d-flex flex-wrap feature-unit align-items-center">
+          <div class="col-sm-6 col-events">
+            <div class="events-info">
+              <img src="assets/images/homepage/event_2.png" class="img-fluid" alt="client image">
+            </div>
+          </div>
+          <div class="col-sm-6 mt-sm-0 mt-4">
+            <div class="events-para">
+              <div class="event-title">BBSI 89th FOUNDING ANNIVERSARY & SEMINARY DAY 2019</div>
+              <div class="event-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>
               
-      <!--        <div class="event-info-details"><i class="fa fa-calendar-o" aria-hidden="true"> November 30, 2019</i></div>-->
-      <!--        <div class="event-info-details"><i class="fa fa-clock-o" aria-hidden="true"> 8:OO AM - 4:00 PM</i></div>-->
-      <!--        <div class="event-info-details"><i class="fa fa-map-marker" aria-hidden="true"> BBSI Covered Court</i></div>-->
+              <div class="event-info-details"><i class="fa fa-calendar-o" aria-hidden="true"> November 30, 2019</i></div>
+              <div class="event-info-details"><i class="fa fa-clock-o" aria-hidden="true"> 8:OO AM - 4:00 PM</i></div>
+              <div class="event-info-details"><i class="fa fa-map-marker" aria-hidden="true"> BBSI Covered Court</i></div>
 
-      <!--        <div class="learn-more-btn">-->
-      <!--          <a href="#" class="btn btn-outline-light btn-more">Learn more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>-->
-      <!--        </div>-->
+              <div class="learn-more-btn">
+                <a href="#" class="btn btn-outline-light btn-more">Learn more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
+              </div>
               
-      <!--      </div>-->
-      <!--    </div>-->
-      <!--  </div>-->
-      <!--</div>-->
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div>
     </div>
