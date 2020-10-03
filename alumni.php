@@ -73,7 +73,9 @@ body {
     color: #03027A;
     margin-top: 10px;
 }
-
+.alumni_button{
+   
+}
 .about-us-details {
     color: white;
     width: 100%;
@@ -126,7 +128,7 @@ body {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <a class="navbar-brand nophone" href="index.php"><img src="assets/images/homepage/BBSI LOGO.png" class="img-fluid menu-logo" alt="client image"></a>
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.php">Home</a>
           </li>
           <li class="nav-item">
@@ -138,7 +140,7 @@ body {
           <li class="nav-item">
             <a class="nav-link" href="#">Admissions</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#">Alumni</a>
           </li>
           <li class="nav-item">
@@ -160,49 +162,30 @@ body {
 </div>
 <!-- index-block1 -->
 
-<!--banner section-->
-<section class="w3l-index-block10 home-banner">
-  <div class="new-block top-bottom">
-    <div class="container">
-      <div class="middle-section">
-        <!-- <h5>Tagline</h5> -->
-        <div class="section-width">
-          <div class="banner-title">ALUMNI</div>
-        </div>
-        <div class="link-list-menu">
-            <p class="verse-text-banner">" And the things that you have heard from me among many witnesses, commit these to faithful men who will be able to teach others also."</p>
-            <p>- 2 Timothy 2:2</p>
-            <!-- <a href="about.html" class="btn btn-outline-light btn-more">Read More <span class="fa fa-arrow-right" aria-hidden="true"></span></a> -->
-        </div>
-      </div>
-    </div>
-    </div>
-</section>
-<!--//end banner section-->
 
+<br><br>
 <!--announcement section-->
 <section class="events-container">
-  <div class="events">
-    <div class="events-text">Keep in Touch</div>
-  </div>
-<center>
-  <div class="container">
-    <div class="row" style="margin-left:80px; margin-right:80px;">
-       <div class="col-lg-12 announcement-col-text">
-        <div class="events-card d-flex flex-wrap feature-unit" style="padding: 10px;">
+  <div class="container" style="margin-top: 150px; margin-bottom: 80px;">
+    <div class="row">
+       <div class="col-lg-12 col-sm-12 announcement-col-text">
+        <div class="events-card d-flex flex-wrap feature-unit" style="padding: 10px;padding-left: 70px;padding-right: 70px;margin-left: 70px;margin-right: 70px;">
           <br>
+			<div class="events">
+				<div style="text-align: center;text-transform: uppercase;color: #03027A;font-size: 30px;font-weight: 600;margin-bottom: 30px;margin-top: 30px;">Keep in Touch</div>
+			  </div>
             <div class="announcement-para">
-              <div class="alumni-description">If you have graduated from Baptist Bible Seminary and Institute, you’re part of the BBSI alumni community. To stay connected and receive emails with BBSI news and events, update your details here. We respect your privacy and you can unsubscribe from our mailing list at any time.</div><br><br><br>
-              <div class="alumni-description" style="color:#03027A">Please update your details by filling out the form found in the link below:</div><br><br>
+              <div class="alumni-description">If you have graduated from <b>Baptist Bible Seminary and Institute</b>, you’re part of the BBSI alumni community. To stay connected and receive emails with BBSI news and events, update your details here. We respect your privacy and you can unsubscribe from our mailing list at any time.</div><br>
+				
+              <div class="alumni-description">Please update your details by filling out the form found in the link below:</div><br>
               <div class="alumni-description">
-				  <strong><a href="https://forms.gle/6tSRSb7aB3sZQw6TA" style="color:#03027A">https://forms.gle/6tSRSb7aB3sZQw6TA</a></strong><br>
-				  Do contact us at <strong><a href="alumni@bbsi.edu.ph" style="color:#03027A">alumni@bbsi.edu.ph</a></strong> if you have any queries.
-			  </div><br><br><br>
+				  <a href="https://forms.gle/6tSRSb7aB3sZQw6TA" target="_blank" style=" background-color: #D9A414;color: white;padding: 12px 20px;border: none;border-radius: 4px;cursor: pointer;width: 100%;">ALUMNI FORM</a><br><br>
+				  Do contact us at <b><a href="alumni@bbsi.edu.ph" style="color: #212529">alumni@bbsi.edu.ph</a></b> if you have any queries.
+			  </div><br>
 			<div class="alumni-description">By updating your particulars with Baptist Bible Seminary and Institute, you are giving your consent to use and disclose your personal data within the college community for the purpose of facilitating administration and communication of college updates, needs and events notices. This is required under the Republic Act No. 10173 of the Philippines, otherwise known as the Data Privacy Act in order to protect your data.</div><br><br>
           </div>
         </div>
       </div>
-      </center>	  
      <!-- <div class="col-md-4 announcement-col-text">
         <div class="events-card d-flex flex-wrap feature-unit">
           <div class="col-sm-6 col-events">
@@ -392,42 +375,58 @@ body {
     <div class="footer-bg-layer">
       <div class="container py-lg-3">
         <div class="row footer-top-28">
-          <div class="col-md-6 footer-list-28">
+			
+        <div class="col-lg-12">
+				
+          <div class="col-lg-12">
             <div class="row">
-              <div class="col-md-2 footer-list-28 mt-5">
-                <a class="footer-logo" href="index.html"><img src="assets/images/homepage/BBSI LOGO.png" class="img-fluid menu-logo" alt="client image"></a>
+				<div class="col-md-6 footer-list-28 mt-5">
+					<div class="col-md-3">
+					 	<a class="footer-logo" href="index.html"><img src="assets/images/homepage/BBSI LOGO.png" class="img-fluid menu-logo" alt="client image"></a>
+					</div>
+					<div class="col-md-3">
+						<div class="footer-title"><b>Baptist Bible Seminary & Institute-BBSI.</b></div>
+						<div class="footer-text"><b>Love for God, love of God's Word, love for God's work and love for God's people.</b></div>
+					</div>
               </div>
-              <div class="col-md-10 footer-list-28 mt-5">
-                <div class="footer-title">Baptist Bible Seminary & Institute-BBSI.</div>
-                <div class="footer-text">Love for God, love of God's Word, love for God's work and love for God's people.</div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-6 footer-list-28 mt-5">
-                <div class="footer-title">CONTACT US</div>
+              
+				<div class="col-md-2 footer-list-28 mt-5">
+                <div class="footer-title"><b>QUICK LINKS</b></div>
                 <ul>
-                  <li><a href="about.html"><div class="footer-contacts-us"><span class="fa fa-phone" aria-hidden="true"></span> (02) 8658845</div></a></li>
-                  <li><a href="about.html"><div class="footer-contacts-us"><span class="fa fa-mobile" aria-hidden="true" style="font-size: 20px !important;"></span> &emsp;+639291309024</div></a></li>
-                  <li><a href="about.html"><div class="footer-contacts-us"><span class="fa fa-envelope-o" aria-hidden="true"></span> admissionsbbsi@gmail.com</div></a></li>
+                  <li><a href="index.php"><div class="footer-contacts-us"><b>HOME</b></div></a></li>
+                  <li><a href="about.html"><div class="footer-contacts-us"><b>ABOUT US</b></div></a></li>
+                  <li><a href="#"><div class="footer-contacts-us"><b>ACADEMICS</b></div></a></li>
+                  <li><a href="#"><div class="footer-contacts-us"><b>ADMISSIONS</b></div></a></li>
+                  <li><a href="alumni.php"><div class="footer-contacts-us"><b>ALUMNI</b></div></a></li>
+                  <li><a href="#"><div class="footer-contacts-us"><b>SUPPORT</b></div></a></li>
+                  <li><a href="#"><div class="footer-contacts-us"><b>NEWS & EVENTS</b></div></a></li>
+                  <li><a href="#"><div class="footer-contacts-us"><b>ANNOUNCEMENTS</b></div></a></li>
+                  <li><a href="about.html"><div class="footer-contacts-us"><b>CONTACT US</b></div></a></li>
                 </ul>
               </div>
-              <div class="col-md-6 footer-list-28 mt-5">
-                <div class="footer-title">FOLLOW US</div>
+              <div class="col-md-2 footer-list-28 mt-5">
+                <div class="footer-title"><b>CONTACT US</b></div>
+                <ul>
+                  <li><a href="about.html"><div class="footer-contacts-us"><span class="fa fa-phone" aria-hidden="true"></span><b> (02) 8658845</b></div></a></li>
+                  <li><a href="about.html"><div class="footer-contacts-us"><span class="fa fa-mobile" aria-hidden="true" style="font-size: 20px !important;"></span> <b>&emsp;+639291309024</b></div></a></li>
+                  <li><a href="about.html"><div class="footer-contacts-us"><span class="fa fa-envelope-o" aria-hidden="true"></span><b>admissionsbbsi@gmail.com</b></div></a></li>
+                </ul>
+              </div>
+              <div class="col-lg-2 footer-list-28 mt-5">
+                <div class="footer-title"><b>FOLLOW US</b></div>
                 <a href="https://www.facebook.com/OfficialBBSI/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
+</div>
 
-
-      <div class="midd-footer-28 align-center py-lg-3 py-3 mt-5">
+      <!--<div class="midd-footer-28 align-center py-lg-3 py-3 mt-5">
         <div class="container">
           <p class="copy-footer-28 text-center"> Copyright &copy; 2020 Baptist Bible Seminary & Institute-BBSI. All Rights Reserved</a></p>
         </div>
-      </div>
+      </div> -->
     </div>
   </footer>
 
