@@ -100,6 +100,29 @@ body {
     display: none !important;
 }
         }
+.modal{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99992;
+	display: none;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	outline: 0;
+}		
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
     </style>
   </head>
   <body>
@@ -191,12 +214,12 @@ body {
         <div class="events-card d-flex flex-wrap feature-unit align-items-center">
           <div class="col-sm-6 col-events">
             <div class="events-info">
-              <img src="assets/images/homepage/event_1.png" class="img-fluid" alt="client image">
+              <img src="assets/images/poster.png" class="img-fluid" alt="client image">
             </div>
           </div>
           <div class="col-sm-6 mt-sm-0 mt-4">
             <div class="events-para">
-              <div class="event-title">BBSI 89th FOUNDING ANNIVERSARY & SEMINARY DAY 2019</div>
+              <div class="event-title">70th COMMENCEMENT EXERCISES</div>
               <div class="event-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>
               
               <div class="event-info-details"><i class="fa fa-calendar-o" aria-hidden="true"> November 30, 2019</i></div>
@@ -204,7 +227,7 @@ body {
               <div class="event-info-details"><i class="fa fa-map-marker" aria-hidden="true"> BBSI Covered Court</i></div>
 
               <div class="learn-more-btn">
-                <a href="#" class="btn btn-outline-light btn-more">Learn more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
+                <a href="#" class="btn btn-outline-light btn-more">See more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
               </div>
               
             </div>
@@ -216,12 +239,12 @@ body {
         <div class="events-card d-flex flex-wrap feature-unit align-items-center">
           <div class="col-sm-6 col-events">
             <div class="events-info">
-              <img src="assets/images/homepage/event_2.png" class="img-fluid" alt="client image">
+              <img src="assets/images/poster.png" class="img-fluid" alt="client image">
             </div>
           </div>
           <div class="col-sm-6 mt-sm-0 mt-4">
             <div class="events-para">
-              <div class="event-title">BBSI 89th FOUNDING ANNIVERSARY & SEMINARY DAY 2019</div>
+              <div class="event-title">70th COMMENCEMENT EXERCISES</div>
               <div class="event-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>
               
               <div class="event-info-details"><i class="fa fa-calendar-o" aria-hidden="true"> November 30, 2019</i></div>
@@ -229,7 +252,7 @@ body {
               <div class="event-info-details"><i class="fa fa-map-marker" aria-hidden="true"> BBSI Covered Court</i></div>
 
               <div class="learn-more-btn">
-                <a href="#" class="btn btn-outline-light btn-more">Learn more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
+                <a href="#" class="btn btn-outline-light btn-more">See more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
               </div>
               
             </div>
@@ -270,158 +293,99 @@ body {
     <div class="events-text">Announcements</div>
   </div>
   <div class="container">
-    <div class="row">
-       <div class="col-md-4 announcement-col-text">
-        <div class="events-card d-flex flex-wrap feature-unit">
-          <div class="col-sm-6 col-events">
-            <div class="events-info">
-              <img src="assets/images/poster1.png" class="img-fluid announ" alt="client image">
-            </div>
-          </div>
-          <div class="col-sm-6 mt-sm-0 mt-4">
-            <div class="announcement-para">
-              <div class="announcement-title">step by step enrollment</div>
-              <div class="announcement-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>
-              
-
-              <div class="learn-more-btn">
-                <a href="#announcements" class="btn btn-outline-light btn-more">See more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>   
-        
-      <div class="col-md-4 announcement-col-text">
-        <div class="events-card d-flex flex-wrap feature-unit">
-          <div class="col-sm-6 col-events">
-            <div class="events-info">
-              <img src="assets/images/homepage/announcement_1.png" class="img-fluid announ" alt="client image">
-            </div>
-          </div>
-          <div class="col-sm-6 mt-sm-0 mt-4">
-            <div class="announcement-para">
-              <div class="announcement-title">step by step enrollment</div>
-              <div class="announcement-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>
-              
-
-              <div class="learn-more-btn">
-                <a href="#announcements" class="btn btn-outline-light btn-more">See more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 announcement-col-text">
-        <div class="events-card d-flex flex-wrap feature-unit">
-          <div class="col-sm-6 col-events">
-            <div class="events-info">
-              <img src="assets/images/homepage/announcement_2.png" class="img-fluid announ" alt="client image">
-            </div>
-          </div>
-          <div class="col-sm-6 mt-sm-0 mt-4">
-            <div class="announcement-para">
-              <div class="announcement-title">step by step enrollment</div>
-              <div class="announcement-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>
-              
-
-              <div class="learn-more-btn">
-                <a href="#announcements" class="btn btn-outline-light btn-more">See more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 announcement-col-text">
-        <div class="events-card d-flex flex-wrap feature-unit">
-          <div class="col-sm-6 col-events">
-            <div class="events-info">
-              <img src="assets/images/homepage/announcement_3.png" class="img-fluid announ" alt="client image">
-            </div>
-          </div>
-          <div class="col-sm-6 mt-sm-0 mt-4">
-            <div class="announcement-para">
-              <div class="announcement-title">step by step enrollment</div>
-              <div class="announcement-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>
-              
-
-              <div class="learn-more-btn">
-                <a href="#announcements" class="btn btn-outline-light btn-more">See more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--<div class="col-md-4 announcement-col-text">-->
-      <!--  <div class="events-card d-flex flex-wrap feature-unit">-->
-      <!--    <div class="col-sm-6 col-events">-->
-      <!--      <div class="events-info">-->
-      <!--        <img src="assets/images/homepage/announcement_4.png" class="img-fluid announ" alt="client image">-->
-      <!--      </div>-->
-      <!--    </div>-->
-      <!--    <div class="col-sm-6 mt-sm-0 mt-4">-->
-      <!--      <div class="announcement-para">-->
-      <!--        <div class="announcement-title">step by step enrollment</div>-->
-      <!--        <div class="announcement-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>-->
-              
-
-      <!--        <div class="learn-more-btn">-->
-      <!--          <a href="#" class="btn btn-outline-light btn-more">See more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>-->
-      <!--        </div>-->
-              
-      <!--      </div>-->
-      <!--    </div>-->
-      <!--  </div>-->
-      <!--</div>-->
-      <div class="col-md-4 announcement-col-text">
-        <div class="events-card d-flex flex-wrap feature-unit">
-          <div class="col-sm-6 col-events">
-            <div class="events-info">
-              <img src="assets/images/homepage/announcement_5.png" class="img-fluid announ" alt="client image">
-            </div>
-          </div>
-          <div class="col-sm-6 mt-sm-0 mt-4">
-            <div class="announcement-para">
-              <div class="announcement-title">step by step enrollment</div>
-              <div class="announcement-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>
-              
-
-              <div class="learn-more-btn">
-                <a href="#announcements" class="btn btn-outline-light btn-more">See more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 announcement-col-text">
-        <div class="events-card d-flex flex-wrap feature-unit">
-          <div class="col-sm-6 col-events">
-            <div class="events-info">
-              <img src="assets/images/homepage/announcement_61.png" class="img-fluid announ" alt="client image">
-            </div>
-          </div>
-          <div class="col-sm-6 mt-sm-0 mt-4">
-            <div class="announcement-para">
-              <div class="announcement-title">step by step enrollment</div>
-              <div class="announcement-description">It is a long established fact that a reader will be distracted by the readable content.It is a long established fact that a reader will be distracted by the readable content.</div>
-              
-
-              <div class="learn-more-btn">
-                <a href="#announcements" class="btn btn-outline-light btn-more">See more <span class="fa fa-arrow-right" aria-hidden="true"></span></a>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div>
-    </div>
+	<!-- row -->
+	<div class="row row-sm">
+		<div class="col-sm-12 col-lg-6 col-xl-4">
+			 <div class="events-card d-flex flex-wrap feature-unit">
+              	<img src="assets/images/homepage/announcement_61.jpg" class="img-fluid announ" alt="client image" class="modal-effect btn btn-outline-primary btn-block" data-effect="effect-scale" data-toggle="modal" href="#modalAnnouncements">
+        	</div>
+		</div>
+		<div class="col-sm-12 col-lg-6 col-xl-4">
+			 <div class="events-card d-flex flex-wrap feature-unit">
+              	<img src="assets/images/homepage/bso101.png" class="img-fluid announ" alt="client image" height="580px" width="448px" class="modal-effect btn btn-outline-primary btn-block" data-effect="effect-scale" data-toggle="modal" href="#modalbso101">
+       		 </div>
+		</div>
+		<div class="col-sm-12 col-lg-6 col-xl-4">
+			 <div class="events-card d-flex flex-wrap feature-unit">
+              	<img src="assets/images/homepage/ge104.png" class="img-fluid announ" alt="client image" height="580px" width="448px" class="modal-effect btn btn-outline-primary btn-block" data-effect="effect-scale" data-toggle="modal" href="#modalge104">
+        	</div>
+		</div>
+	</div>
+	<!-- row closed -->
+	 <!-- row -->
+	 <br>
+	<div class="row row-sm">
+		<div class="col-sm-12 col-lg-6 col-xl-4">
+			 <div class="events-card d-flex flex-wrap feature-unit">
+              	<img src="assets/images/homepage/ce101.png" class="img-fluid announ" alt="client image" class="modal-effect btn btn-outline-primary btn-block" data-effect="effect-scale" data-toggle="modal" href="#modalce101">
+        	</div>
+		</div>
+		<div class="col-sm-12 col-lg-6 col-xl-4">
+			 <div class="events-card d-flex flex-wrap feature-unit">
+              	<img src="assets/images/poster21.png" class="img-fluid announ" alt="client image" height="580px" width="448px" class="modal-effect btn btn-outline-primary btn-block" data-effect="effect-scale" data-toggle="modal" href="#modalposter21">
+       		 </div>
+		</div>
+		<div class="col-sm-12 col-lg-6 col-xl-4">
+			 <div class="events-card d-flex flex-wrap feature-unit">
+              	<img src="assets/images/homepage/noclass1.png" class="img-fluid announ" alt="client image" height="580px" width="448px" class="modal-effect btn btn-outline-primary btn-block" data-effect="effect-scale" data-toggle="modal" href="#modalnoclass1">
+        	</div>
+		</div>
+	</div>
+	<!-- row closed -->
+	 <div class="modal" id="modalAnnouncements">
+		 <div class="modal-dialog  modal-lg" role="document" style="background-color: white;">
+			<div class="modal-body">
+				 <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+				 <center><img src="assets/images/homepage/announcement_61.jpg" class="img-fluid announ" alt="client image" height="580px" width="720px"></center>
+			 </div>
+		 </div>
+	 </div>
+	 
+	   <div class="modal" id="modalbso101">
+		 <div class="modal-dialog  modal-lg" role="document" style="background-color: white;">
+			<div class="modal-body">
+				 <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+				 <center><img src="assets/images/homepage/bso101.png" class="img-fluid announ" alt="client image" height="580px" width="720px"></center>
+			 </div>
+		 </div>
+	 </div>
+	  
+	  <div class="modal" id="modalge104">
+		 <div class="modal-dialog  modal-lg" role="document" style="background-color: white;">
+			<div class="modal-body">
+				 <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+				 <center><img src="assets/images/homepage/ge104.png" class="img-fluid announ" alt="client image" height="580px" width="720px"></center>
+			 </div>
+		 </div>
+	 </div>
+	  
+	  <div class="modal" id="modalce101">
+		 <div class="modal-dialog  modal-lg" role="document" style="background-color: white;">
+			<div class="modal-body">
+				 <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+				 <center><img src="assets/images/homepage/ce101.png" class="img-fluid announ" alt="client image" height="580px" width="720px"></center>
+			 </div>
+		 </div>
+	 </div>
+	  
+	  <div class="modal" id="modalposter21">
+		 <div class="modal-dialog  modal-lg" role="document" style="background-color: white;">
+			<div class="modal-body">
+				 <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+				 <center><img src="assets/images/poster.png" class="img-fluid announ" alt="client image" height="580px" width="720px"></center>
+			 </div>
+		 </div>
+	 </div>
+	  
+	  <div class="modal" id="modalnoclass1">
+		 <div class="modal-dialog  modal-lg" role="document" style="background-color: white;">
+			<div class="modal-body">
+				 <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times;</span></button>
+				 <center><img src="assets/images/homepage/noclass1.png" class="img-fluid announ" alt="client image" height="580px" width="720px"></center>
+			 </div>
+		 </div>
+	 </div>
+	  
   </div>
 </section>
 <!--//end announcement section-->
@@ -541,6 +505,8 @@ body {
   <button onclick="topFunction()" id="movetop" title="Go to top">
     &#10548;
   </button>
+	
+	
   <script>
     // When the user scrolls down 20px from the top of the document, show the button
     window.onscroll = function () {
@@ -568,6 +534,9 @@ body {
       <!-- jQuery, Bootstrap JS -->
       <script src="assets/js/jquery-3.3.1.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>
+	  <script src="assets/js/modal-popup.js"></script>
+	  <!-- Internal Modal js-->
+	  <script src="assets/js/modal.js"></script>
 
       <!-- Template JavaScript -->
       
